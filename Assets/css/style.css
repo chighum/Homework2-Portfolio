@@ -4,10 +4,19 @@
   margin: 0;
 }
 
+:root {
+  --main-color: #45649c;
+  --light: #e7e1da;
+  --accent: #97a8c1;
+  --dark: #203274;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  background-color: var(--main-color);
+  color: var(--light);
 }
 
 h1 {
@@ -34,10 +43,11 @@ li a {
   text-decoration: none;
 }
 
-img {
-  width: 200px;
-  height: auto;
-  justify-content: flex-start;
+nav ul li a {
+  color: var(--light);
+  border: var(--accent) solid 2px;
+  padding: 5px;
+  border-radius: 15px;
 }
 
 #about-me {
@@ -46,13 +56,21 @@ img {
   width: 100%;
 }
 
+#elephant-photo {
+  width: 200px;
+  height: auto;
+}
+
 #about-me div {
   display: flex;
   width: 100%;
   align-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-p {
+#about-me div p {
+  padding-left: 20px;
 }
 
 h2 {
@@ -68,10 +86,30 @@ h2 {
   margin-left: 20px;
 }
 
-#work {
+/* #work {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center; 
+} */
+
+#work div {
+  display: flex;
   width: 100%;
+}
+
+#work div a {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  height: 150px;
+  background-color: var(--accent);
+  color: var(--dark);
+  border: var(--dark) solid 2px;
+  flex: ;
+}
+
+#work div:first-child {
+  flex: 100%;
 }
 
 #contact {
