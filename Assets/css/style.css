@@ -4,9 +4,21 @@
   margin: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+h1 {
+  margin-left: 10px;
+  padding: 20px;
+}
+
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 ul {
@@ -22,32 +34,33 @@ li a {
   text-decoration: none;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-}
-
 img {
   width: 200px;
   height: auto;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #about-me {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
+#about-me div {
+  display: flex;
+  width: 100%;
+  align-content: center;
+}
+
+p {
+}
+
 h2 {
-  display: block;
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
+  padding: 20px;
+  width: 100%;
 }
 
 #about-me-photo {
@@ -62,5 +75,8 @@ h2 {
 }
 
 #contact {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
 }
