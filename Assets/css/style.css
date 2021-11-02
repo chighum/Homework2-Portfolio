@@ -11,6 +11,10 @@
   --dark: #203274;
 }
 
+main {
+  background-color: var(--light);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -41,13 +45,14 @@ li {
 
 li a {
   text-decoration: none;
+  color: var(--dark);
+  border: var(--dark) solid 2px;
+  padding: 5px;
+  border-radius: 15px;
 }
 
 nav ul li a {
   color: var(--light);
-  border: var(--accent) solid 2px;
-  padding: 5px;
-  border-radius: 15px;
 }
 
 #about-me {
@@ -71,6 +76,7 @@ nav ul li a {
 
 #about-me div p {
   padding-left: 20px;
+  color: var(--dark);
 }
 
 h2 {
@@ -79,6 +85,7 @@ h2 {
   font-weight: bold;
   padding: 20px;
   width: 100%;
+  color: var(--main-color);
 }
 
 #about-me-photo {
@@ -86,14 +93,15 @@ h2 {
   margin-left: 20px;
 }
 
-/* #work {
+#work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
-} */
+  justify-content: center;
+}
 
 #work div {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -105,10 +113,10 @@ h2 {
   background-color: var(--accent);
   color: var(--dark);
   border: var(--dark) solid 2px;
-  flex: ;
+  flex: 1 1 200px;
 }
 
-#work div:first-child {
+#work div a:first-child {
   flex: 100%;
 }
 
@@ -117,4 +125,5 @@ h2 {
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  padding-bottom: 20px;
 }
