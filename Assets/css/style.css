@@ -99,6 +99,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #work div a {
@@ -157,7 +159,7 @@ h2 {
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   #work div a:nth-child(2),
   #work div a:nth-child(3) {
     flex: 100%;
