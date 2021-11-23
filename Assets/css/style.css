@@ -128,26 +128,26 @@ h2 {
 }
 
 #project1 {
-  background-image: url(../images/IMG_3698.JPG);
+  background-image: url(../images/FeedMe_HomePage.png);
   background-position: center;
   background-size: cover;
 }
 
 #project2 {
-  background-image: url(../images/IMG_1862.JPG);
+  background-image: url(../images/CodeQuiz.png);
   background-position: center;
   background-size: cover;
 }
 
 #project3 {
-  background-image: url(../images/IMG_6505.jpeg);
+  background-image: url(../images/DayPlanner.png);
   background-position: center;
   background-size: cover;
 }
 
 #project4 {
-  background-image: url(../images/IMG_3779.JPG);
-  background-position: center;
+  background-image: url(../images/PasswordGenerator.png);
+  background-position: top;
   background-size: cover;
 }
 
